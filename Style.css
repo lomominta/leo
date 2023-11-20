@@ -1,0 +1,151 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.body{
+    background: #3a3d47;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background: white;
+    width: 1200px;
+    height:  auto;
+}
+
+.superior{
+    background: black;
+    overflow:hidden ;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+
+
+/*estilos para el menu*/
+.menu{
+    float: left;
+    padding: 90px;
+}
+.opciones li{
+    float: left;/*permite que los elementos floten*/
+    list-style: none;/*Esta opcion permite colocar los elementos uno al lado del otro*/
+}
+
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: greenyellow;
+}
+
+
+/* estilos para el cuerpo*/
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float:left;
+    margin: 10px;
+}
+
+.subtitulo{
+    background: #1551a1;
+}
+
+.titulo1{
+    color:#ff7700;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+}
+
+.titulo{
+    background: #1551a1;
+    color: #ff7700;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+.contenido{
+    padding: 15px;
+    display: flex;
+    color: blue;
+    width: 300px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border-top: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer ul li {
+    margin: 10px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .redes-sociales a {
+    margin: 10px;
+  }
+  
+  
+  .icono-telefono img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .icono-telefono a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+
+
+
